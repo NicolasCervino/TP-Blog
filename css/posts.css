@@ -18,6 +18,19 @@
   transition: transform 0.3s;
 }
 
+.post-card a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.post-card a:visited {
+  color: var(--text-primary);
+}
+
+.post-card a:hover {
+  color: var(--accent);
+}
+
 .post-card img {
   width: 100%;
   height: 200px;
