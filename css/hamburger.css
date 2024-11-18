@@ -1,0 +1,27 @@
+.hamburger {
+  display: none;
+  cursor: pointer;
+  z-index: 100;
+  position: relative;
+}
+
+.hamburger i {
+  font-size: 1.8rem;
+  color: var(--text-primary);
+}
+
+.hamburger .close-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.hamburger.active .menu-icon {
+  opacity: 0;
+}
+
+.hamburger.active .close-icon {
+  opacity: 1;
+}
