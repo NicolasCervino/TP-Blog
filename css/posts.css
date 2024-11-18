@@ -9,9 +9,12 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  justify-items: center;
 }
 
 .post-card {
+  max-width: 400px;
+  width: 100%;
   background-color: var(--card-bg);
   border-radius: 0.5rem;
   overflow: hidden;

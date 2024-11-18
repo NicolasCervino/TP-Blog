@@ -8,10 +8,37 @@ const AUTHOR = {
   image: "assets/autor.jpg"
 };
 
+const categories = {
+  superdeportivos: {
+    id: 'superdeportivos',
+    title: 'Superdeportivos',
+    description: 'Los autos más rápidos y exclusivos del mundo',
+    image: 'assets/categories/superdeportivos.jpg'
+  },
+  electricos: {
+    id: 'electricos',
+    title: 'Eléctricos',
+    description: 'El futuro de la movilidad sostenible',
+    image: 'assets/categories/electricos.jpg'
+  },
+  clasicos: {
+    id: 'clasicos',
+    title: 'Clásicos',
+    description: 'Joyas automotrices del pasado',
+    image: 'assets/categories/clasicos.jpg'
+  },
+  tecnologia: {
+    id: 'tecnologia',
+    title: 'Tecnología',
+    description: 'Innovaciones en la industria automotriz',
+    image: 'assets/categories/tecnologia.jpg'
+  }
+};
+
 const posts = {
   1: {
     title: "Audi R8: El Fin de una Era",
-    category: "Destacado",
+    category: "superdeportivos",
     author: AUTHOR,
     date: "Octubre 2024",
     featuredImage: "assets/posts/audi-r8/hero.jpg",
@@ -19,7 +46,7 @@ const posts = {
   },
   2: { // Porsche post content
     title: "Porsche 911 GT3: La Nueva Generación del Ícono Alemán",
-    category: "Deportivos",
+    category: "superdeportivos",
     author: AUTHOR,
     date: "15 Octubre, 2024",
     featuredImage: "assets/posts/porsche-911-gt3/hero.jpg",
@@ -27,7 +54,7 @@ const posts = {
   },
   3: { // Tesla post content
     title: "El Futuro de la Movilidad Eléctrica: Tendencias 2024",
-    category: "Tecnología",
+    category: "electricos",
     author: AUTHOR,
     date: "12 Octubre, 2024",
     featuredImage: "assets/posts/electric-cars/hero.jpg",
@@ -35,7 +62,7 @@ const posts = {
   },
   4: {
     title: "Los 5 Autos Clásicos Más Cotizados del Momento",
-    category: "Clásicos",
+    category: "clasicos",
     author: AUTHOR,
     date: "10 Octubre, 2024",
     featuredImage: "assets/posts/classic-cars/hero.jpg",
@@ -43,4 +70,4 @@ const posts = {
   }
 };
 
-export default posts;
+export { categories, posts as default };

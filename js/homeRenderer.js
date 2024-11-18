@@ -23,7 +23,7 @@ function renderHero() {
       <a href="post.html?id=1">
         <img src="${heroPost.featuredImage}" alt="${heroPost.title}">
         <div class="hero-card-content">
-          <span class="category">${heroPost.category}</span>
+          <span class="category">${heroPost.category.toUpperCase()}</span>
           <h1>${heroPost.title}</h1>
           <div class="post-meta">
             <div class="author">
