@@ -1,0 +1,100 @@
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about-hero {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.about-hero .subtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.about-content {
+  display: grid;
+  gap: 4rem;
+}
+
+.mission,
+.team,
+.contact {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.about-content h2 {
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.team-member {
+  display: flex;
+  gap: 2rem;
+  align-items: start;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.member-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.member-info .role {
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.member-info .bio {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.contact p {
+  margin-bottom: 0.8rem;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+.contact-info {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--text-secondary);
+}
+
+.contact-item a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  color: var(--accent);
+}
+
+.contact-item i {
+  color: var(--accent);
+  font-size: 1.2rem;
+}
